@@ -1,0 +1,33 @@
+{
+  "name": "nimble-ui",
+  "version": "0.0.1",
+  "description": "A lightweight react component library",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimbl-ui/ui.git"
+  },
+  "author": "Cloyd Abad",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nimbl-ui/ui/issues"
+  },
+  "homepage": "https://github.com/nimbl-ui/ui#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.10.0",
+    "@types/react": "^18.3.5",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-react": "^7.36.1",
+    "globals": "^15.9.0",
+    "prettier": "^3.3.3",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.5.0"
+  },
+  "peerDependencies": {
+    "react": ">=16.0"
+  }
+}

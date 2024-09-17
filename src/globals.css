@@ -1,0 +1,32 @@
+:root {
+  --base: 1rem;
+  --golden-ratio: 1.618;
+
+  /* -------- Sizing -------- */
+  --small: calc(var(--base) / var(--golden-ratio));
+  --xsmall: calc(var(--small) / var(--golden-ratio));
+  --xxsmall: calc(var(--xsmall) / var(--golden-ratio));
+
+  --medium: var(--base);
+
+  --large: calc(var(--base) * var(--golden-ratio));
+  --xlarge: calc(var(--large) * var(--golden-ratio));
+  --xxlarge: calc(var(--xlarge) * var(--golden-ratio));
+
+
+  /* -------- Breakpoints -------- */
+  --breakpoint-small: 576px;
+  --breakpoint-medium: calc(var(--breakpoint-small) * var(--golden-ratio));
+  --breakpoint-large: calc(var(--breakpoint-medium) * var(--golden-ratio));
+}
+
+body {
+  --color-background: #fafafa;
+  --color-foreground: #1f2023;
+}
+@media (prefers-color-scheme: dark) {
+  body {
+  --color-background: #1f2023;
+  --color-foreground: #efefef;
+  }
+}

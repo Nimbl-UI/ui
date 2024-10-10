@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Make sure to test before commit
+npm run test
+
+# Make sure to lint code before commit
+# npm run lint
+
+# Make sure build works before commit
+npm run build
